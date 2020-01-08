@@ -11,4 +11,4 @@ export default function Hero({ children, hero }) {
 
 Hero.defaultProps = {
     hero: 'defaultHero'
-};
+}; 
