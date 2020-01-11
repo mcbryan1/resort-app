@@ -244,6 +244,18 @@ h6 {
   grid-row-gap: 2rem;
   grid-column-gap: 50px;
 }
+.service{
+    margin: 10px auto;
+    display: inline;
+    background-color:var(--darkGrey);
+    transition: 0.5s;
+    box-shadow: 0 1px 5px var(--darkGrey);;
+}
+.service:hover{
+    box-shadow: 0 2px 20px var(--primaryColor);
+    cursor: pointer;
+    cursor: pointer;
+}
 .service span {
   display: inline-block;
   color: var(--primaryColor);
@@ -252,6 +264,7 @@ h6 {
 }
 .services h6 {
   letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
 }
 .services p {
   width: 80%;

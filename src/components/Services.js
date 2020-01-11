@@ -1,5 +1,5 @@
-import React, { Component } from 'react'
-import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa'
+import React, { Component } from 'react';
+import { FaCocktail, FaHiking, FaShuttleVan, FaBeer } from 'react-icons/fa';
 import Title from './Title'
 
 
@@ -43,7 +43,7 @@ export default class Services extends Component {
                     {this.state.services.map((item, index) => {
                         return (
                             <article key={index} className="service">
-                                <span>{item.icon}</span>
+                                <span>{item.icons}</span>
                                 <h6>{item.title}</h6>
                                 <p>{item.info}</p>
                             </article>
