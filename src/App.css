@@ -524,3 +524,7 @@ h6 {
   }
 }
 /* end of rooms fitler*/
+/*Contact Form Starts*/
+.contact{
+  background: var(--mainGrey);
+}
